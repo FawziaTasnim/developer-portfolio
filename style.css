@@ -11,7 +11,7 @@ body{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
 .haha{
     width: 50%;
