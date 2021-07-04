@@ -9,7 +9,7 @@ body{
 .full{
     font-size: 25px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -45,4 +45,30 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.time{ 
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box{
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 3%;
+    border-radius: 10px;
+}
+#devil{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(43, 43, 192),rgb(62, 91, 116));
+    border-image-slice: 1;
+}
+#evil{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(78, 0, 78),plum);
+    border-image-slice: 1; 
+}
+footer p {
+    text-align: center;
 }
